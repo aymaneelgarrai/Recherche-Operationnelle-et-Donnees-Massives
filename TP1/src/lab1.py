@@ -1,5 +1,4 @@
 import numpy as np
-from numba import jit
 from collections import deque
 import time
 from scipy.sparse import dok_matrix, lil_matrix
