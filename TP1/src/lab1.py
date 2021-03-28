@@ -4,8 +4,9 @@ import time
 from scipy.sparse import lil_matrix
 import random
 
-available_graphs = {'amazon', 'lj','orkut'}
-
+# Change here to choose which graph to work on
+#available_graphs = {'amazon', 'lj','orkut'}
+available_graphs = {'amazon'}
 ####################################################################################################
 # Answer to exercice 1 
 # Creating a program to count the number of nddes and edges in a graph and 
