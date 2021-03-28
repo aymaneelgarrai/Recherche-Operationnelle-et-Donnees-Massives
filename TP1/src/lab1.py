@@ -1,8 +1,7 @@
 import numpy as np
 from collections import deque
 import time
-from scipy.sparse import dok_matrix, lil_matrix
-from tqdm import tqdm
+from scipy.sparse import lil_matrix
 import random
 
 available_graphs = {'amazon', 'lj','orkut'}
